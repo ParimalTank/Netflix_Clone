@@ -1,0 +1,123 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000000 !important;
+}
+
+.bg-image{
+    background-image: linear-gradient(rgb(0, 0, 0 , 0.491) , rgb(0, 0, 0 , 0.344)) , url(./images/login-b_g);
+    height: 100vh;
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.logo{
+    display: flex;
+    width: 100vw;
+    height: 90px;
+    padding: 0px 40px;
+    background-color: rgb(0, 0, 0 , 0);
+    align-items: center;
+}
+
+.logo img{
+    width: 170px;
+    height: 50px;
+}
+
+.login-box{
+    width:  450px;
+    height: 580px;
+    background-color: rgb(0, 0, 0 , 0.899);
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.login-box {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  }
+
+
+  .small-text {
+    font-size: 13px;
+  }
+  
+  .form-control{
+    box-shadow: none !important;
+  }
+
+
+  header a.button {
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        padding: 7px 17px;
+  }
+
+  header select{
+    background-color: black;
+    color: #fff;
+    padding: 7px 17px;
+    border-radius: 3px;
+    border-color: #fff;
+  }
+
+
+
+  .footer{
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+
+.footer ,
+.footer a{
+    color: #999999;
+    font-size: 0.9rem;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li{
+    line-height: 2.4;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

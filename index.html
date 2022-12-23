@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Netflix</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style1.css'>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header class="bg-image">
+        <div class="logo d-flex">
+            <a href="/login.html"><img src="./images/logo.png" alt="Netflix-logo" /></a>
+            <div style="margin-left: 65%;">
+                <div>
+                      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 21 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/></svg> -->
+                      
+                      <select class="mr-4 bg-dark text-white">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-6 h-6" width="23px">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                        </svg> -->
+                        <option value="">English</option>              
+                        <option value="">Hindi</option>
+                </select>
+                    <a href="login.html" class="btn btn-rounded text-white">Sign In</a>
+                </div>     
+            </div>
+        </div>
+        
+        <div class="showcase-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="email" name="email" id="mail" placeholder="Email address">
+            <a href="#" class="btn btn-lg showcase-btn">GET STARTED ></a>
+        </div>
+    </header>
+
+    
+    <section class="style-cards">
+
+        <div class="card-1">
+            <div class="desc-1">
+                <h1>Enjoy on your TV.</h1>
+                <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+            </div>
+            <img src="./images/tv.png" alt="Netflix TV">
+            <video class="video-1" autoplay="" playsinline="" muted="" loop=""><source src="./video/1.m4v" type="video/mp4"></video>
+        </div>
+
+        <div class="card-2">
+            <img src="./images/3.jpg" alt="Netflix Mobile">
+            <div class="desc-2">
+                <h1>Download your shows to watch offline.</h1>
+                <h3>Save your favourites easily and always have something to watch.</h3>
+            </div>
+        </div>
+
+        <div class="card-3">
+            <div class="desc-3">
+                <h1>Watch everywhere.</h1>
+                <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+            </div>
+            <img src="./images/4.png" alt="Device-Pile-In">
+            <video class="video-2" autoplay="" playsinline="" muted="" loop=""><source src="./video/2.m4v" type="video/mp4"></video>
+        </div>
+
+        <div class="card-4">
+            <img src="./images/5.png" alt="Netflix Mobile">
+            <div class="desc-0">
+                <h1>Create profiles for children.</h1>
+                <h3>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h3>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="faq-questions">
+        <div class="faq">
+            <h1>Frequently Asked Questions</h1>
+            <ul class="questions">
+                <li>What is Netflix?</li>
+                <li>How much does Netflix cost?</li>
+                <li>Where can I watch?</li>
+                <li>How do I cancel?</li>
+                <li>What can I watch on Netflix?</li>
+                <li>Is Netflix good for kids?</li>
+            </ul>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="input">
+                <input type="email" name="email" placeholder="Email Address">
+                <a href="#" type="button" class="btn-rounded"><button>GET STARTED ></button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Questions? Call 000-800-040-1843</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Watch for Free</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Centre</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Netflix Originals</a></li>
+            </ul>
+        </div>
+    </footer>
+        <h6 style="margin-left: 17%;"><small>Netflix India</small></h6>
+</body>
+</html>
